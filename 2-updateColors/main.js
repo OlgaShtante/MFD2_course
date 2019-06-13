@@ -7,7 +7,7 @@ function resetColour() {
 
 // JS for the 1st task:
 function f1() {
-  let c1 = document.querySelector(".color1");
+  let c1 = document.querySelector(".implementation-1");
   let bgc1 = c1.value;
   resetColour();
 
