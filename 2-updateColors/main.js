@@ -6,7 +6,7 @@ function resetColour() {
 }
 
 // JS for the 1st task:
-function f1() {
+function changeBgColorImplementation1() {
   let c1 = document.querySelector(".implementation-1");
   let bgc1 = c1.value;
   resetColour();
@@ -15,8 +15,8 @@ function f1() {
 }
 
 // JS for the 2nd task:
-function f2() {
-  let c2 = document.querySelector(".color2");
+function changeBgColorImplementation2() {
+  let c2 = document.querySelector(".implementation-2");
   let bgc2 = c2.value;
   resetColour();
 
