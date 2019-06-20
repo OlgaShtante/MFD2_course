@@ -25,7 +25,7 @@ function changeBgColorImplementation2() {
 
 // JS for the 3rd task:
 function f3() {
-  let c3 = document.querySelector(".color3");
+  let c3 = document.querySelector(".implementation-3");
   let bgc3 = c3.value;
   resetColour();
 
