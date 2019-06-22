@@ -24,7 +24,7 @@ function changeBgColorImplementation2() {
 }
 
 // JS for the 3rd task:
-function f3() {
+function changeBgColorImplementation3() {
   let c3 = document.querySelector(".implementation-3");
   let bgc3 = c3.value;
   resetColour();
@@ -38,7 +38,7 @@ function f3() {
 }
 
 // JS for the 4th task:
-function f4() {
+function changeBgColorImplementation4() {
   let c4 = document.querySelector(".color4");
   let bgc4 = c4.value;
   resetColour();
