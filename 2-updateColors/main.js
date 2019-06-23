@@ -7,31 +7,31 @@ function resetColour() {
 
 // JS for the 1st task:
 function changeBgColorImplementation1() {
-  let c1 = document.querySelector(".implementation-1");
-  let bgc1 = c1.value;
+  let color1 = document.querySelector(".implementation-1");
+  let bgColor1 = color1.value;
   resetColour();
 
-  document.body.style.backgroundColor = bgc1;
+  document.body.style.backgroundColor = bgColor1;
 }
 
 // JS for the 2nd task:
 function changeBgColorImplementation2() {
-  let c2 = document.querySelector(".implementation-2");
-  let bgc2 = c2.value;
+  let color2 = document.querySelector(".implementation-2");
+  let bgColor2 = color2.value;
   resetColour();
 
-  document.body.style.backgroundColor = bgc2;
+  document.body.style.backgroundColor = bgColor2;
 }
 
 // JS for the 3rd task:
 function changeBgColorImplementation3() {
-  let c3 = document.querySelector(".implementation-3");
-  let bgc3 = c3.value;
+  let color3 = document.querySelector(".implementation-3");
+  let bgColor3 = color3.value;
   resetColour();
 
-  document.body.className = bgc3;
-  if (bgc3 != "Select a colour") {
-    document.body.className = bgc3;
+  document.body.className = bgColor3;
+  if (bgColor3 != "Select a colour") {
+    document.body.className = bgColor3;
   } else {
     alert("Try again :)");
   }
@@ -39,17 +39,17 @@ function changeBgColorImplementation3() {
 
 // JS for the 4th task:
 function changeBgColorImplementation4() {
-  let c4 = document.querySelector(".implementation-4");
-  let bgc4 = c4.value;
+  let color4 = document.querySelector(".implementation-4");
+  let bgColor4 = color4.value;
   resetColour();
 
-  document.body.style.setProperty("--main-color", bgc4);
+  document.body.style.setProperty("--main-color", bgColor4);
 }
 
 // JS for the 5th task:
 function setMainColor(selectElement) {
-  let bgc5 = selectElement.value;
+  let bgColor5 = selectElement.value;
   resetColour();
 
-  document.body.style.setProperty("--main-color", bgc5);
+  document.body.style.setProperty("--main-color", bgColor5);
 }
