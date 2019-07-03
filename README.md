@@ -3,3 +3,4 @@
 2. Update background color functions (4 different implementations).
 3. Bakground color selector (add a new color and change background with it).
 4. Survey (promt, confirm, alert).
+5. Upgrade background color selector ()
